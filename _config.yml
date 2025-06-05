@@ -66,7 +66,7 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/HannahMwende"
     - label: "Tableau"
-      icon: '<i class="fa-solid fa-chart-simple" style="color:orange;"></i>'
+      icon: "fa-solid fa-chart-simple"
       url: "https://public.tableau.com/app/profile/hannah.mutua/vizzes"
     - label: "Dev.to"
       icon: "fab fa-fw fa-dev"
