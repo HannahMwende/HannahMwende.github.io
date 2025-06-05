@@ -1,7 +1,6 @@
 ---
-title: "Posts by Category"
-layout: categories
-permalink: /categories/
+title: "Portfolio projects"
+permalink: /projects/
 author_profile: true
 ---
 ## MY WORKS
