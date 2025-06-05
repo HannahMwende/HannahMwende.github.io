@@ -15,7 +15,7 @@ author_profile: true
   <style>
     :root {
       --primary-color: #157A6E;   /* Dark Mint Green */
-      --accent-color: #3FE0CA;    /* Light mint for highlights */
+      --accent-color: #3FE0CA;    /* Badge accent */
       --bg-color: #f4f6f8;
       --card-color: #ffffff;
     }
@@ -30,7 +30,7 @@ author_profile: true
       font-family: 'Inter', sans-serif;
       font-size: 0.85rem;
       background-color: var(--bg-color);
-      color: var(--primary-color);
+      color: inherit; /* Preserve default text color */
     }
 
     header {
@@ -120,6 +120,7 @@ author_profile: true
 </head>
 <body>
 
+  <!-- Only header that should appear -->
   <header>
     <h1>Hi, I'm Hannah</h1>
     <p>Data Analyst | Business Intelligence Analyst | Machine Learning</p>
@@ -193,4 +194,5 @@ author_profile: true
 
 </body>
 </html>
+
 
