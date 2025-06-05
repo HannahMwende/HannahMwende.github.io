@@ -1,0 +1,72 @@
+---
+title: "Contact Me"
+permalink: /contact/
+author_profile: true
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Me</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      max-width: 600px;
+      margin: auto;
+    }
+    h2 {
+      color: #333;
+    }
+    .contact-form {
+      margin-top: 20px;
+    }
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-sizing: border-box;
+    }
+    button {
+      margin-top: 20px;
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      padding: 12px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Contact Me</h2>
+  <p>Feel free to get in touch.</p>
+
+  <div class="contact-form">
+    <form action="https://formspree.io/f/mknaqzaj" method="POST">
+      <label for="name">Full name</label>
+      <input type="text" name="name" id="name" placeholder="John Doe" required maxlength="30"/>
+
+      <label for="email">Email address</label>
+      <input type="email" name="email" id="email" placeholder="johndoe@gmail.com" required/>
+
+      <label for="message">Write your message:</label>
+      <textarea name="message" id="message" placeholder="Write your message..." required maxlength="500"></textarea>
+
+      <button type="submit">Get in touch</button>
+    </form>
+  </div>
+
+</body>
+</html>
