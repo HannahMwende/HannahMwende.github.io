@@ -13,11 +13,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title : Hannah Mwende
-email: hannahmutua03@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Data Analyst | AWS Certified Cloud Practitioner | Machine Learning 
-github_username: HannahMwende
+#title : Hannah Mwende
+#email: hannahmutua03@gmail.com
+#description: >- # this means to ignore newlines until "baseurl:"
+ # Data Analyst | AWS Certified Cloud Practitioner | Machine Learning 
+#github_username: HannahMwende
 minimal_mistakes_skin: mint
 search: true
 
