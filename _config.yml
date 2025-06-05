@@ -57,7 +57,7 @@ plugins:
 author:
   name   : "Hannah Mwende"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Business Intelligence Analyst | Data Analyst."
+  bio    : "Data Analyst"
   links:
     - label: "LinkedIn"
       icon: "fab fa-linkedin"
@@ -82,7 +82,7 @@ footer:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/HannahMwende"
     - label: "Tableau"
-      icon: "fab fa-fw fa-tableau"
+      icon: "![Tableau](https://upload.wikimedia.org/wikipedia/commons/4/4b/Tableau_Logo.png)
       url: "https://public.tableau.com/app/profile/hannah.mutua/vizzes"
     - label: "Dev.to"
       icon: "fab fa-fw fa-dev"
