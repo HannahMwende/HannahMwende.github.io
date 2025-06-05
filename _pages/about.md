@@ -1,8 +1,177 @@
 ---
-permalink: /about/
-title: "About"
+permalink: /home/
+title: "Home"
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hannah Mwende | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary-color: #157A6E;   /* Dark Mint Green */
+      --accent-color: #3FE0CA;    /* Badge accent */
+      --bg-color: #f4f6f8;
+      --card-color: #ffffff;
+    }
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.85rem;
+      background-color: var(--bg-color);
+      color: inherit; /* Preserve default text color */
+    }
+
+    header {
+      background-color: var(--primary-color);
+      color: white;
+      padding: 2rem;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    header h1 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-style: italic;
+      color: #e0e0e0;
+    }
+
+    section {
+      max-width: 900px;
+      margin: 2rem auto;
+      background-color: var(--card-color);
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.05);
+    }
+
+    h2 {
+      font-size: 1.4rem;
+      margin-bottom: 1rem;
+    }
+
+    h3 {
+      font-size: 1rem;
+      margin-top: 1.2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    blockquote {
+      font-style: italic;
+      color: #555;
+      border-left: 4px solid var(--accent-color);
+      padding-left: 1rem;
+      margin: 1rem 0;
+    }
+
+    ul {
+      padding-left: 1.2rem;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1rem;
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 0.75rem;
+      text-align: left;
+    }
+
+    th {
+      background-color: #ecf0f1;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 1rem;
+      }
+
+      section {
+        padding: 1.5rem;
+      }
+
+      header h1 {
+        font-size: 1.5rem;
+      }
+
+      h2 {
+        font-size: 1.2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Only header that should appear -->
+  <header>
+    <h1>Hi, I'm Hannah</h1>
+    <p>Data Analyst | Business Intelligence Analyst | Machine Learning</p>
+  </header>
+
+  <section>
+    <h2>📖 About Me</h2>
+    <blockquote>
+      "My journey isn’t just about analyzing data – it’s about transforming it into insights, solutions, and telling the story the data is longing to tell. With a strong foundation in data analytics, visualization, and cloud technologies, I specialize in building intuitive dashboards, automating data workflows, and uncovering patterns that shape business strategy. I take pride not only in delivering technically sound solutions but also in collaborating closely with teams to ensure every insight is relevant, meaningful, and aligned with real-world needs. For me, data is more than numbers, it’s a powerful tool for understanding people, solving problems, and creating lasting impact."
+    </blockquote>
+  </section>
+
+  
+ <section>
+  <h2>🛠️ Skills and Tools</h2>
+  <ul>
+    <li><strong>Programming Languages:</strong> Python, SQL</li>
+    <li><strong>Data Visualization Tools:</strong> Tableau, Looker Studio, Power BI</li>
+    <li><strong>Other Tools:</strong> Amazon Web Services, Jira, Microsoft Office Suite, Airflow, Docker</li>
+    <li><strong>Technical Skills:</strong> Data analysis, Data Visualization, Machine Learning, ETL (Extract, Transform, Load)</li>
+    <li><strong>Soft Skills:</strong> Presentation, Collaboration, Problem-Solving, SOP Documentation, Communication</li>
+  </ul>
+</section>
+
+  <section>
+    <h2>📜 Certifications</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>🏅 Certification</th>
+          <th>🏢 Issuer</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>AWS Certified Cloud Practitioner</td>
+          <td>Amazon Web Services</td>
+        </tr>
+        <tr>
+          <td>Google Project Management Certificate</td>
+          <td>Google</td>
+        </tr>
+        <tr>
+          <td>Google Digital Marketing & E-commerce Certificate</td>
+          <td>Google</td>
+        </tr>
+        <tr>
+          <td>Google Data Analytics Certificate</td>
+          <td>Google</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+</body>
+</html>
