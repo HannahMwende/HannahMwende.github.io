@@ -1,0 +1,21 @@
+// Make footer icons use their brand colors
+.footer-links .icon {
+  color: black; // Default color if you want all black icons
+}
+
+.footer-links .fa-linkedin {
+  color: #0077B5; // LinkedIn blue
+}
+
+.footer-links .fa-github {
+  color: #333; // GitHub black
+}
+
+.footer-links .fa-dev {
+  color: #0A0A0A; // DEV.to black
+}
+
+/* Optional: set a Tableau-like color */
+.footer-links .fa-chart-simple {
+  color: #E97627; // Approx. Tableau orange
+}
